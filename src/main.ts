@@ -1,4 +1,4 @@
-import './styles/index.css'
+import './scss/index.scss'
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
 
