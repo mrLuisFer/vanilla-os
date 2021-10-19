@@ -4,4 +4,24 @@
 		list-style: none;
 		column-gap: 1rem;
 	}
+
+	&-volume {
+		color: #5C7AEA;
+	}
+
+	&-bright {
+		color: #9D84B7;
+	}
+
+	&-wifi {
+		color: #39A2DB;
+	}
+
+	&-battery {
+		color: #FDA65D;
+	}
+
+	&-date {
+		color: #FF9292;
+	}
 }
