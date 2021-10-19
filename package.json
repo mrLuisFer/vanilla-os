@@ -1,11 +1,17 @@
 {
   "name": "vanilla-os",
   "version": "0.0.0",
+  "license": "MIT",
+  "author": "mrLuisFer<mrluisfeer@gmail.com>",
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=3"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.1.0",
