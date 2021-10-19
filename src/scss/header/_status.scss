@@ -6,22 +6,22 @@
 	}
 
 	&-volume {
-		color: #5C7AEA;
+		color: var(--blue);
 	}
 
 	&-bright {
-		color: #9D84B7;
+		color: var(--purple);
 	}
 
 	&-wifi {
-		color: #39A2DB;
+		color: var(--light_blue);
 	}
 
 	&-battery {
-		color: #FDA65D;
+		color: var(--orange);
 	}
 
 	&-date {
-		color: #FF9292;
+		color: var(--red);
 	}
 }

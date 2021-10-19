@@ -1,9 +1,26 @@
 :root {
   font-size: 16px;
 
-  --text-color: #FBFBFB;
+  --primary_text_color: #eceff4;
+  --secondary_text_color: #d8dee9;
+
   --radius: 2px;
   --transition: 0.15s ease-in;
+
+  // Nord Colorscheme
+  --dark_primary: #2e3440;
+  --dark_secondary: #3b4252;
+  --gray_primary: #434c5e;
+  --gray_secondary: #4c566a;
+
+  --strong_blue: #5e81ac;
+  --blue: #81a1c1;
+  --light_blue: #88c0d0;
+  --green: #a3be8c;
+  --purple: #b48ead;
+  --yellow: #ebcb8b;
+  --orange: #d08770;
+  --red: #bf616a;
 }
 
 * {
@@ -15,7 +32,7 @@
 body {
   margin: 0;
   padding: 0;
-  color: var(--text-color);
+  color: var(--primary_text_color);
 }
 
 #app {
