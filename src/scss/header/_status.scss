@@ -1,27 +1,27 @@
 .header-status {
-	&-list {
-		display: flex;
-		list-style: none;
-		column-gap: 1rem;
-	}
+  &-list {
+    display: flex;
+    list-style: none;
+    column-gap: 1rem;
+  }
 
-	&-volume {
-		color: var(--blue);
-	}
+  &-volume {
+    color: var(--blue);
+  }
 
-	&-bright {
-		color: var(--purple);
-	}
+  &-bright {
+    color: var(--purple);
+  }
 
-	&-wifi {
-		color: var(--light_blue);
-	}
+  &-wifi {
+    color: var(--light_blue);
+  }
 
-	&-battery {
-		color: var(--orange);
-	}
+  &-battery {
+    color: var(--orange);
+  }
 
-	&-date {
-		color: var(--red);
-	}
+  &-date {
+    color: var(--red);
+  }
 }
