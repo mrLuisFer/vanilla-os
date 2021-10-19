@@ -1,0 +1,11 @@
+@use './apps.scss';
+@use './status.scss';
+
+.header {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background: #3C415E;
+	padding: 0.6rem 0.5rem;
+	color: var(--text-color);
+}

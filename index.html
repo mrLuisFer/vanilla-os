@@ -9,12 +9,10 @@
   </head>
   <body>
     <main id="app">
-      <header>
-        <nav>
-          <div>
-            <p>Window Title</p>
-          </div>
-          <ul>
+      <header class="header">
+        <nav class="header-apps">
+          <h1 class="header-apps-title">Window Title</h1>
+          <ul class="header-apps-list">
             <li title="terminal">
               <i class="fas fa-terminal"></i>
             </li>
@@ -41,26 +39,29 @@
             </li>
           </ul>
         </nav>
-        <section>
-          <ul>
-            <li title="volume">
+        <section class="header-status">
+          <ul class="header-status-list">
+            <li title="volume" class="header-status-volume">
               <i class="fas fa-volume-up"></i>
             </li>
-            <li title="brightness">
+            <li title="brightness" class="header-status-bright">
               <i class="fas fa-sun"></i>
             </li>
-            <li title="wifi">
+            <li title="wifi" class="header-status-wifi">
               <i class="fas fa-wifi"></i>
             </li>
-            <li title="battery">
+            <li title="battery" class="header-status-battery">
               <i class="fas fa-battery-three-quarters"></i>
             </li>
-            <li title="date & hour">
+            <li title="date & hour" class="header-status-date">
               <i class="fas fa-clock"></i>
             </li>
           </ul>
         </section>
       </header>
+      <section class="desktop">
+
+      </section>
     </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
