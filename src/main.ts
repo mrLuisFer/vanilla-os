@@ -1,6 +1,5 @@
 import './scss/index.scss'
+import './ts'
 
-const app: HTMLDivElement = document.querySelector<HTMLDivElement>('#app')!
-
-console.log(typeof app)
+const app: HTMLDivElement | HTMLElement = document.querySelector<HTMLDivElement>('#app')!
 console.log(app)
