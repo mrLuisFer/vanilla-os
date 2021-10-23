@@ -26,5 +26,8 @@
     "sass": "^1.43.2",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
   }
 }
