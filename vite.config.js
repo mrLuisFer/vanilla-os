@@ -3,6 +3,8 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 import sveltePreprocess from 'svelte-preprocess'
 import * as sass from 'sass'
 
+const { typescript } = sveltePreprocess
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svelte({
@@ -12,8 +14,6 @@ export default defineConfig({
         implementation: sass,
       }
     }),
-    css: (css) => {
-      css.write('public/bundle.css')
-    },
-  })],
+  }),
+  typescript({ sourceMap: true })],
 })
