@@ -1,8 +1,10 @@
 <script>
   import Header from './components/common/Header.svelte';
+	import Login from './pages/Login.svelte'
 </script>
 
 <main>
+	<Login />
   <Header />
 </main>
 
