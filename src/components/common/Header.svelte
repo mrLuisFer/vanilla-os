@@ -1,10 +1,10 @@
 <script>
 </script>
 
-<header>
-  <p>Something</p>
+<header class="header">
+  <h1 class="header-title">title</h1>
 </header>
 
-<style>
-
+<style type="text/scss">
+  
 </style>
