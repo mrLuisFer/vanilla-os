@@ -1,13 +1,19 @@
 <script lang="ts">
   import Header from './components/common/Header.svelte';
-	import Login from './pages/Login.svelte'
+  import Login from './pages/Login.svelte';
+  import Home from './pages/Home.svelte';
 
-  let name: string = 'Svelte';
+  let name: string = '';
+  let password: string = '';
 </script>
 
 <main>
-	<Login />
   <Header />
+  {#if name.length > 0}
+    <Home />
+  {:else}
+    <Login {name} {password} />
+  {/if}
   <p>{name}</p>
 </main>
 
