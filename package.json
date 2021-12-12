@@ -5,14 +5,18 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write --plugin-search-dir=. ./**/*.svelte"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
     "@tsconfig/svelte": "2.0.1",
+    "prettier": "2.5.1",
+    "prettier-plugin-svelte": "2.5.1",
     "sass": "1.44.0",
     "svelte": "^3.44.0",
     "svelte-check": "2.2.10",
+    "svelte-language-server": "0.14.15",
     "svelte-preprocess": "4.9.8",
     "typescript": "4.5.2",
     "vite": "^2.7.0"
