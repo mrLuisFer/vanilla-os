@@ -5,6 +5,6 @@
   <h1 class="header-title">title</h1>
 </header>
 
-<style type="text/scss">
+<style lang="scss">
   
 </style>
