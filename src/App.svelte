@@ -3,18 +3,20 @@
   import Login from './pages/Login.svelte';
   import Home from './pages/Home.svelte';
 
-  let name: string = '';
-  let password: string = '';
+  let name: string = "";
+  let password: string = "";
+
 </script>
 
 <main>
   <Header />
-  {#if name.length > 0}
+  {#if name && name.length > 0}
     <Home />
   {:else}
-    <Login {name} {password} />
+    <Login bind:name={name} bind:password={password} />
   {/if}
   <p>{name}</p>
+  <p>{password}</p>
 </main>
 
 <style>
