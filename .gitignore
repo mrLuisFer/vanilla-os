@@ -1,6 +1,5 @@
 /node_modules/
 /dist/
-/.vscode/
 .DS_Store
 *.tar
 *.tar.*
@@ -276,8 +275,6 @@ tags
 [._]*.un~
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
