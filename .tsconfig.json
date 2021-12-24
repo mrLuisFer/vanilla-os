@@ -1,5 +1,9 @@
 {
-  "extends": "@tsconfig/svelte/tsconfig.json",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "@tsconfig/svelte/tsconfig.json"],
   "compilerOptions": {
     "allowJs": true,
     "baseUrl": ".",
