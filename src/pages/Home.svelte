@@ -1,9 +1,9 @@
 <script>
 </script>
 
-<div>
+<section>
   <p>home</p>
-</div>
+</section>
 
 <style>
 </style>
