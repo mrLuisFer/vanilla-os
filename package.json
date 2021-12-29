@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "prettier --write --plugin-search-dir=. ./**/*.svelte",
+    "format": "prettier --write .",
     "prepare": "husky install",
     "lint:fix": "pnpx eslint --cache --fix"
   },
@@ -35,8 +35,7 @@
   },
   "lint-staged": {
     "*.{js,ts,svelte}": [
-      "svelte-check",
-      "npm run lint:fix"
+      "svelte-check"
     ],
     "*.svelte": "prettier --write"
   }
