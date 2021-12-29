@@ -3,7 +3,8 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "@tsconfig/svelte/tsconfig.json"],
+    "@tsconfig/svelte/tsconfig.json"
+  ],
   "compilerOptions": {
     "allowJs": true,
     "baseUrl": ".",
