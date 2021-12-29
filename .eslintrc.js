@@ -1,4 +1,3 @@
-// @typescript-eslint/parser
 
 module.exports = {
   parser: "@babel/eslint-parser",
@@ -11,7 +10,16 @@ module.exports = {
     },
   ],
   rules: {
-    "semi": "warn"
+    semi: "warn",
+    "no-const-assign": "error",
+    "no-duplicate-case": "error",
+    "capitalized-comments": "warn",
+    curly: ["warn", "multi"],
+    eqeqeq: "error",
+    "no-confusing-arrow": "warn",
+    "no-extra-semi": "error",
+    "no-unused-vars": "warn",
+    "no-var": "error",
   },
   settings: {
     "svelte3/typescript": true,
