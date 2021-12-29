@@ -5,9 +5,9 @@
   "useTabs": false,
   "svelteIndentScriptAndStyle": true,
   "svelteStrictMode": true,
-  "svelteSortOrder": "scripts-markup-styles",
+  "svelteSortOrder": "options-scripts-markup-styles",
   "svelteAllowShorthand": true,
   "arrowParens": "always",
-  "plugins": ["svelte3", "prettier-plugin-svelte"],
+  "plugins": ["prettier-plugin-svelte"],
   "endOfLine": "lf"
 }
